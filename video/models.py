@@ -147,7 +147,7 @@ class Video(models.Model):
 class VideoUser(models.Model):
     video = models.ForeignKey(Video, on_delete=models.CASCADE)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    number = models.IntegerField(blank=True, null=True, max_length=4)
+    number = models.IntegerField(blank=True, null=True)
     coupon_get = models.BooleanField(default=False)
     coupon_used = models.BooleanField(default=False)
 
