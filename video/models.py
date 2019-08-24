@@ -114,12 +114,11 @@ class Video(models.Model):
 
 
     def is_get(self, user):
-        # tmp = VideoUser.objects.filter(user_id=user.id, video_id=self.id).first()
-        # if tmp is None:
-        #     return None
-        # else:
-        #     return tmp.coupon_get
-        return None
+        tmp = VideoUser.objects.filter(user_id=user.id, video_id=self.id).first()
+        if tmp is None:
+            return None
+        else:
+            return tmp.coupon_get
 
     # def message(self, user):
     #     coupon_getd = VideoUser.objects.filter(user_id=user.id, video_id=self.id).first().coupon_get

@@ -99,7 +99,7 @@ TEMPLATES = [
             ],
 
             'libraries': {
-                'video_tags': 'video.templatetags.video_tags',
+                'video_tag': 'video.templatetags.video_tag',
 
             }
         },
