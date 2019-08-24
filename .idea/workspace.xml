@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9791d-5e7a-4f38-9676-04bfd8f5ba47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/videoproject/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +40,16 @@
         <entry file="file://$PROJECT_DIR$/video/migrations/0004_auto_20190824_0209.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="350">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -79,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/videoproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="608">
+              <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -113,7 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>count_liker</find>
       <find>count</find>
       <find>video</find>
       <find>count_likers</find>
@@ -143,6 +141,7 @@
       <find>video.model</find>
       <find>comment</find>
       <find>总览</find>
+      <find>template</find>
     </findStrings>
     <dirStrings>
       <dir>D:\视频网站\videoproject\templates\myadmin</dir>
@@ -158,7 +157,6 @@
       <list>
         <option value="$PROJECT_DIR$/users/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/users/apps.py" />
-        <option value="$PROJECT_DIR$/videoproject/settings.py" />
         <option value="$PROJECT_DIR$/templates/base/footer.html" />
         <option value="$PROJECT_DIR$/templates/base/header.html" />
         <option value="$PROJECT_DIR$/templates/base/base.html" />
@@ -176,6 +174,7 @@
         <option value="$PROJECT_DIR$/templates/myadmin/base.html" />
         <option value="$PROJECT_DIR$/templates/myadmin/coupon_list.html" />
         <option value="$PROJECT_DIR$/video/models.py" />
+        <option value="$PROJECT_DIR$/videoproject/settings.py" />
       </list>
     </option>
   </component>
@@ -190,8 +189,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="3" />
+    <option name="x" value="1382" />
+    <option name="y" value="82" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
@@ -207,6 +206,17 @@
             <path>
               <item name="videoproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="videoproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="videoproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="videoproject" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,15 +284,15 @@
       <workItem from="1566436368332" duration="21310000" />
       <workItem from="1566490641241" duration="2117000" />
       <workItem from="1566522190306" duration="34641000" />
-      <workItem from="1566612483128" duration="1465000" />
+      <workItem from="1566612483128" duration="2699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67112000" />
+    <option name="totallyTimeSpent" value="68346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="415" y="7" width="1294" height="1047" extended-state="0" />
+    <frame x="1382" y="82" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2884927" />
@@ -602,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/videoproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videoproject/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -622,14 +625,21 @@
     <entry file="file://$PROJECT_DIR$/video/migrations/0004_auto_20190824_0209.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="350">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
         </state>
       </provider>
     </entry>

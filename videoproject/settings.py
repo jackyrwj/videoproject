@@ -97,6 +97,11 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            
+            'libraries':{
+                'video_tag': 'video.templatetags.video_tag',
+
+            }
         },
     },
 ]
