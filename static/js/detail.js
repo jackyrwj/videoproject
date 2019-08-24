@@ -72,7 +72,7 @@ $(function () {
                         t.textContent = "点击领取"
                     }else{
                         $('#ticket').removeClass("red").addClass("grey")
-                        t.textContent = "已领取"
+                        t.textContent = "(已领取)"
                     }
                 }else{
                     var msg = data.msg

@@ -82,7 +82,7 @@ def like(request):
     video = Video.objects.get(pk=video_id)
     user = request.user
     video.add_like(user)
-    return JsonResponse({"code": 0, "likes": video.count_likers(user), "user_liked": video.user_liked(user), "coupon_get":video.get_coupon(user)})
+    return JsonResponse({"code": 0, "likes": video.count_likers(user), "user_liked": video.user_liked(user), "coupon_get":video.is_get(user)})
 
 
 @ajax_required
