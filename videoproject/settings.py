@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'sorl.thumbnail',
     'chunked_upload',
     'video',
+    'video.templatetags'
     'users',
     'myadmin',
     'comment',
